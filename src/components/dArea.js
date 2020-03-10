@@ -12,10 +12,10 @@ export default class DArea extends Component {
   }
 
   headings = [
-    { name: "Photo", width: "15%", padding: "50px" },
+    { name: "Photo", width: "10%", padding: "50px" },
     { name: "Name", width: "10%" },
-    { name: "Phone", width: "20%" },
-    { name: "Email", width: "20%" },
+    { name: "Phone", width: "15%" },
+    { name: "Email", width: "15%" },
     { name: "Date of Birth", width: "10%" }
   ]
 

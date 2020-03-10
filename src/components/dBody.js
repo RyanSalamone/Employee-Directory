@@ -9,7 +9,7 @@ function DBody({ users }) {
     const dayArray = dateArray[2].split("T");
     const day = dayArray[0];
     const formattedDate = [month, day, year].join("-");
-    return formattedDate;
+    return formattedDate
   }
 
   return (
@@ -20,7 +20,7 @@ function DBody({ users }) {
             <tr key={login.uuid}>
               <td data-th="Image" className="align-middle">
                 <img
-                  src={picture.medium}
+                  src={picture.large}
                   alt={"profile image for " + name.first + " " + name.last}
                   className="img-responsive"
                 />
