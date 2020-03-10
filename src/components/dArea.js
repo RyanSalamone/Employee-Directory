@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import DTable from "./dTable";
 import Nav from "./NavBar";
 import Api from "../utils/Api";
-// import "../styles/DataArea.css";
+import "../styles/dArea.css";
 
 export default class DArea extends Component {
   state = {
@@ -12,11 +12,11 @@ export default class DArea extends Component {
   }
 
   headings = [
-    { name: "Image", width: "10%" },
+    { name: "Photo", width: "15%", padding: "50px" },
     { name: "Name", width: "10%" },
     { name: "Phone", width: "20%" },
     { name: "Email", width: "20%" },
-    { name: "DOB", width: "10%" }
+    { name: "Date of Birth", width: "10%" }
   ]
 
   handleSort = heading => {
