@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-// import "../styles/Header.css";
+import "../styles/Header.css";
 
 export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1>The Employee Directory</h1>
-        <p>Click on carrots to filter by heading or use the search box to narrow your results.</p>
+       <div className="text-info"><h1>Employee Directory</h1></div> 
+        <br></br><br></br>
+        <h2>Search Employees by Name</h2>
+        
       </div>
     )
   }

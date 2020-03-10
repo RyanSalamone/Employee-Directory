@@ -1,18 +1,20 @@
 import React from "react";
-// import "../styles/Search.css";
+import "../styles/Search.css";
 
 function Search({ handleSearchChange }) {
   return (
-    <div className="searchbox">
-      <form className="form-inline">
+    <br></br>,
+    <div className="searchbox-lg">
+      <form className="form-inline-lg">
         <input
-          className="form-control"
-          type="search"
-          placeholder="Search"
+          className="form-control form-control-lg"
+          type="search-lg"
+          placeholder="Search Employees..."
           aria-label="Search"
           onChange={e => handleSearchChange(e)}
         />
       </form>
+      <br></br><br></br>
     </div>
   );
 }
