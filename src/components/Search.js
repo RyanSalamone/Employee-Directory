@@ -3,7 +3,7 @@ import "../styles/Search.css";
 
 function Search({ handleSearchChange }) {
   return (
-    <br></br>,
+    
     <div className="searchbox-lg">
       <form className="form-inline-lg">
         <input
